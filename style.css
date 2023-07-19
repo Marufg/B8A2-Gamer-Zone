@@ -45,13 +45,16 @@ background: rgba(11, 2, 35, 0.10);
     align-items: center;
     margin: 0 auto;
 }
-.title{
+.title-prymari{
 font-family: Work Sans;
 font-size: 45px;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.h1{
+    font-size: 30px;
 }
 .title-box{
     margin: 0;
@@ -73,3 +76,47 @@ border-radius: 48px;
 background: #4EC5F7;
 }
 /* banner section end  */
+
+.game-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.game-title{
+    margin-left: 400px;
+    
+    
+}
+.funny-video{
+    display: flex;
+    width: 450px;
+    height: 300px;
+    margin-left: 30px;
+   
+}
+.animation-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img1{
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 50px;
+   
+}
+.img2{
+    width: 230px;
+    position: absolute;
+    top: 70%;
+    right: 40%;
+}
+.h2{
+    font-size: 30px;
+}
+.animation-title{
+    margin-left: 30px;
+}
