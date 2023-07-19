@@ -147,3 +147,47 @@ background-clip: text;
     gap: 10px;
     margin-bottom: 30px;
 }
+/* animation section end  */
+
+.footer-section{
+    height: 400px;
+    background: #0B0223;
+    padding-top: 50px;
+    
+}
+
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.footer-description{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: medium;
+    color: white;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    gap: 20px;
+}
+.privacy-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: small;
+    color: #FFFFFF;
+}
+.copiright-section{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
