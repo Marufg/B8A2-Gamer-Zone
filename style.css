@@ -1,81 +1,75 @@
-*
-.nav-section{
-    width: 1120px;
-    margin: auto;
-    display: flex;
-    font-family: Work Sans;
-    justify-content: space-between;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-container{
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.nav-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    
-}
-.nav-items{
+.logo-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
-    list-style: ;
-    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
     
     
 }
-.nav-img{
-    object-fit: cover;
+
+.logo-container p{
+    font-size: 40px;
+    padding-right: 400px;
 }
-.item:hover{
-    color: blue;
-    border: 1px solid green;
-    border-radius: 10px;
-    padding: 10px;
+.items-container a{
+    padding: 20px;
+    text-decoration: none;
+}
+.follow-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
 
 }
+.items-container i{
+    padding-left: 10px;
+    color: #F61C0D;
 
+}
 /* nav section end  */
 .banner-container{
-    width: 1120px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
 .title{
-    font-size: 45px;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+font-family: Work Sans;
+font-size: 45px;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.btn1{
+.title-box{
+    margin: 0;
+}
+.btn-style1{
     display: inline-flex;
-padding: 15px 20px;
+padding: 21px 40px;
 align-items: flex-start;
 gap: 10px;
 border-radius: 48px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-color: #FFF;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
 }
-.btn2{
+.btn-style2{
     display: inline-flex;
-padding: 15px 20px;
+padding: 21px 40px;
 align-items: flex-start;
 gap: 10px;
 border-radius: 48px;
 background: #4EC5F7;
-color: #FFF;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
 }
+/* banner section end  */
